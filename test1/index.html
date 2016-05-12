@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+        <script src="js/aframe.js"></script>
+    </head>
+    <body>
+
+        <a-scene>
+            <a-entity id="box">
+                <a-animation attribute="rotation"
+                             to="0 360 0"
+                             dur="5000"
+                             easing="linear"
+                             repeat="indefinite">
+                </a-animation>
+                <a-cube color="red" height="0.5" depth="0.5" width="0.5" translate="1 1 1">
+                </a-cube>
+            </a-entity>
+        </a-scene>
+
+    </body>
+</html>
